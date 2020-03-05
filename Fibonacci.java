@@ -5,7 +5,7 @@ class Fibonacci{
         else return of(num-1)+of(num-2);
     } 
     public static void main(String[] args) {
-        for(int num =1;num<=100;num++){
+        for(int num =1;num<=200;num++){
             System.out.println(Fibonacci.of(num));
         }
     }
